@@ -1,0 +1,42 @@
+{
+  "name": "awesome-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension React template",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "./node_modules/webpack/bin/webpack.js --watch",
+    "dist": "./node_modules/webpack/bin/webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Hutchinson <chris.hutchinson@thetimes.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^7.2.0",
+    "preact-compat": "^3.13.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.3",
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "isomorphic-style-loader": "^1.1.0",
+    "postcss-loader": "^1.3.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-livereload-plugin": "^0.10.0",
+    "zip-webpack-plugin": "^0.3.0"
+  }
+}

@@ -1,0 +1,60 @@
+.panel-wrapper {
+  position: fixed;
+  top: 10vh;
+  right: 0;
+  z-index: 1000;
+  width: 35rem;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+    sans-serif;
+  box-shadow: -6px 2px 20px 3px rgba(0, 0, 0, 0.3);
+  transform: translateX(40rem);
+  transition: transform 0.2s ease;
+
+  &.panel-wrapper--open {
+    transform: translateX(0);
+  }
+
+  &.panel-wrapper--edition {
+    width: 18rem;
+
+    main.metric {
+      width: 100%;
+    }
+  }
+
+  .handle {
+    width: 4rem;
+    height: 10rem;
+    background: #333;
+    -webkit-transform: translateX(-4rem);
+    transform: translate(-4rem, -50%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    cursor: pointer;
+    color: #FFF;
+    line-height: 9.4rem;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  }
+
+  div {
+    width: 100%;
+    background: #FFFFFF;
+    height: 100%;
+    max-height: 80vh;
+    overflow: auto;
+    padding-top: 4rem;
+  }
+
+  header.Header {
+    position: relative;
+  }
+}

@@ -1,0 +1,31 @@
+header.analytics-header {
+  background: #333;
+  padding: 1rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
+  & img {
+    max-width: 12rem;
+    margin-right: 1rem;
+  }
+
+  & button {
+    background: transparent;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
